@@ -9,7 +9,7 @@
 ### Project setup
 
 - Clone the repo, cd into it
-- Install project dependencies
+- Install project dependencies using `npm install`
 
 
 ### How to run it locally
