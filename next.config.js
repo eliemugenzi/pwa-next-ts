@@ -1,3 +1,8 @@
-const withTypescript = require('@zeit/next-typescript');
+const withPWA = require('next-pwa');
 
-module.exports = withTypescript();
+module.exports = withPWA({
+    pwa: {
+        disable: false,
+        dest: 'public',
+    }
+});
